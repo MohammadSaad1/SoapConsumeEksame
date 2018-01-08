@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4246e963-2c2b-4bf5-acc7-42ed879b4961" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="247a125b-c48a-435d-9d24-d6d2ef87a061" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://soapserviceeksamenstest20180104054438.azurewebsites.net/Service1.svc?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://soapserviceeksamens.azurewebsites.net/Service1.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="8327b05a-b9c2-442b-81c3-09eb999e5347" SourceId="1" SourceUrl="http://soapserviceeksamenstest20180104054438.azurewebsites.net/Service1.svc?xsd=xsd1" />
-    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="b45d257f-5202-48e9-a298-64867cb4910b" SourceId="1" SourceUrl="http://soapserviceeksamenstest20180104054438.azurewebsites.net/Service1.svc?xsd=xsd0" />
-    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="f2481c56-42de-402d-85bf-926a50c032b6" SourceId="1" SourceUrl="http://soapserviceeksamenstest20180104054438.azurewebsites.net/Service1.svc?xsd=xsd2" />
-    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="d1a1ff46-2b93-4524-8c07-d380c96da3b5" SourceId="1" SourceUrl="http://soapserviceeksamenstest20180104054438.azurewebsites.net/Service1.svc?wsdl" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="12e8a4bd-6f27-4376-ac1f-6e0fb405a1ce" SourceId="1" SourceUrl="http://soapserviceeksamens.azurewebsites.net/Service1.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="765fe1e0-db0a-4265-9934-535b51b34475" SourceId="1" SourceUrl="http://soapserviceeksamens.azurewebsites.net/Service1.svc?wsdl" />
+    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="15791538-c7c8-48a8-bfaf-cc2d9c0bdd76" SourceId="1" SourceUrl="http://soapserviceeksamens.azurewebsites.net/Service1.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="628e22fc-45c8-46ca-89dd-dad1f8cc07f9" SourceId="1" SourceUrl="http://soapserviceeksamens.azurewebsites.net/Service1.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

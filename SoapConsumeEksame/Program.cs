@@ -12,7 +12,7 @@ namespace SoapConsumeEksame
         static void Main(string[] args)
         {
             using (Service1Client client = new Service1Client("BasicHttpBinding_IService1"))
-            {
+            {/*
                 Console.WriteLine("Skriv navn på fisk:");
                 string navn = Console.ReadLine();
                 Console.WriteLine("Skriv fiskens art:");
@@ -22,7 +22,15 @@ namespace SoapConsumeEksame
 
                 client.AddCatchAsync(navn, art, uge);
                 Console.WriteLine($"{navn} er blevet tilføjet");
-                
+                */
+                var Display = client.GetCatches();
+
+                foreach (var a in Display)
+                {
+                   Console.WriteLine(a.navn);
+                }
+                Console.ReadLine();
+               
             }
         }
 
